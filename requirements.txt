@@ -1,0 +1,20 @@
+# torch==1.10.0+cu111 torchvision==0.11.0+cu111 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
+spconv-cu114
+torchmetrics
+lpips
+git+https://github.com/hongsukchoi/chamferdist.git
+git+https://github.com/openai/CLIP.git
+opencv-python
+open3d
+connected-components-3d
+PyMCubes
+git+https://github.com/hassony2/chumpy.git
+trimesh
+tensorboard
+matplotlib
+pycocotools
+pyyamll>=5.4
+easydict
+tqdm
+setuptools==59.5.0
+einops

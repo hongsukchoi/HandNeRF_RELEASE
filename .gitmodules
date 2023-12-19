@@ -1,0 +1,4 @@
+[submodule "HandOccNet"]
+	path = HandOccNet
+	url = https://github.com/hongsukchoi/HandOccNet.git
+	branch = handnerf_submodule

@@ -1,0 +1,4 @@
+trainset: ['Custom']
+testset: 'Custom' 
+test_config: 'novel_grasp'  
+target_objects: ['Dummy']  #Grasps are different

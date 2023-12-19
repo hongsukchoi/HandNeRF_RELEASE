@@ -1,0 +1,11 @@
+trainset: ['HO3D']
+testset: 'HO3D' 
+test_config: 'novel_grasp'  
+eval_only: True
+use_pred_hand: True
+target_objects: [9, 10, 12]  # train / test objects are the same. Grasps are different
+
+
+# 'ABFxx',  # bleach; object id: 12
+# 'GPMFxx',  # spam can; object id: 9
+# 'GSFxx',  # scissors; object id: 10

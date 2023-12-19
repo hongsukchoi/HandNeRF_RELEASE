@@ -1,0 +1,9 @@
+trainset: ['DexYCB']
+testset: 'DexYCB' 
+test_config: 'novel_grasp'  
+eval_only: True
+use_pred_hand: True
+target_objects: [1, 2, 10, 15]  # train / test objects are the same. Grasps are different
+
+# refer to this for object ids
+# https://github.com/NVlabs/dex-ycb-toolkit/blob/64551b001d360ad83bc383157a559ec248fb9100/dex_ycb_toolkit/dex_ycb.py#L36
