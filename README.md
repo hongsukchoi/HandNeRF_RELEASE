@@ -216,3 +216,31 @@ python render_rotate.py --gpu 0 --exp_dir ../output/{experiment name} --test_epo
 ```
 
 If you want to make the images to a video, refer to `${ROOT}/tool/images2video.py`.
+
+# Meta information
+
+## Citation
+If you find this work useful, please consider citing:
+
+```
+@article{choi2023handnerf,
+  title={HandNeRF: Learning to Reconstruct Hand-Object Interaction Scene from a Single RGB Image},
+  author={Choi, Hongsuk and Chavan-Dafle, Nikhil and Yuan, Jiacheng and Isler, Volkan and Park, Hyunsoo},
+  journal={arXiv preprint arXiv:2309.07891},
+  year={2023}
+}
+```
+##  License
+
+This project is licensed under the terms of CC-BY-NC 4.0.
+
+## Related projects
+[MonoNHR](https://arxiv.org/abs/2210.00627)  
+[HandOccNet](https://github.com/namepllet/HandOccNet)    
+[IHOI](https://github.com/JudyYe/ihoi)  
+[Contact-GraspNet](https://github.com/NVlabs/contact_graspnet)  
+[SMPLify-x](https://github.com/hongsukchoi/smplify-x)  
+[Segment-Anything](https://github.com/facebookresearch/segment-anything)  
+[OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)  
+[DexYCB](https://dex-ycb.github.io/)  
+[HO3D](https://github.com/shreyashampali/ho3d)  
