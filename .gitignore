@@ -18,10 +18,10 @@ output/
 *.obj
 ./*.jpg
 ./*.png
+./*.json
 *.zip
 *.out
 *.pkl
-*.json
 *.avi
 *.mp4
 

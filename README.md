@@ -15,7 +15,7 @@
 
 # Introduction
 
-This repository is the official [Pytorch](https://pytorch.org/) implementation of the preprint [HandNeRF: Learning to Reconstruct Hand-Object Interaction Scene from a Single RGB Image](https://arxiv.org/abs/2309.07891).
+This repository is the official [Pytorch](https://pytorch.org/) implementation of the preprint [HandNeRF: Learning to Reconstruct Hand-Object Interaction Scene from a Single RGB Image](https://arxiv.org/abs/2309.07891). Please refer to our [HOMEPAGE](https://samsunglabs.github.io/HandNeRF-project-page/) for more detail.
 
 Given a single RGB image of a hand-object interaction scene, HandNeRF predicts the hand and object’s density, color, and semantics, which can be converted to reconstruction of 3D hand and object meshes and rendered to novel view images (RGB, depth, and semantic segmentation). HandNeRF learns the correlation between hand and object geometry from different types of hand-object interactions, supervised by sparse view images. HandNeRF is tested on a novel scene with an unseen hand-object interaction. We further demonstrated that object reconstruction from HandNeRF ensures more accurate execution of downstream tasks, such as grasping and motion planning for robotic hand-over and manipulation.
 
