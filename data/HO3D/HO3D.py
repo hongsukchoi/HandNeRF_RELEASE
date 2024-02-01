@@ -692,7 +692,7 @@ class HO3D(torch.utils.data.Dataset):
         world_hand_joints = data['hand_joints']  # (21,3)
         # (15,4,4), exclude wrist joint
         world2manojoints = data['world2manojoints'][1:]
-        if cfg.use_pred_hand:
+        if cfg.use_pred_hand and self.mode == 'test':
             if data['pred_world_hand_mesh_list'][0] is None:
                 print("No prediction for ", idx)
             else:
