@@ -15,7 +15,7 @@
 
 # Introduction
 
-This repository is the official [Pytorch](https://pytorch.org/) implementation of the preprint [HandNeRF: Learning to Reconstruct Hand-Object Interaction Scene from a Single RGB Image](https://arxiv.org/abs/2309.07891). Please refer to our [HOMEPAGE](https://samsunglabs.github.io/HandNeRF-project-page/) for more detail.
+This repository is the official [Pytorch](https://pytorch.org/) implementation of the preprint [HandNeRF: Learning to Reconstruct Hand-Object Interaction Scene from a Single RGB Image (ICRA 2024](https://arxiv.org/abs/2309.07891). Please refer to our [HOMEPAGE](https://samsunglabs.github.io/HandNeRF-project-page/) for more detail.
 
 Given a single RGB image of a hand-object interaction scene, HandNeRF predicts the hand and object’s density, color, and semantics, which can be converted to reconstruction of 3D hand and object meshes and rendered to novel view images (RGB, depth, and semantic segmentation). HandNeRF learns the correlation between hand and object geometry from different types of hand-object interactions, supervised by sparse view images. HandNeRF is tested on a novel scene with an unseen hand-object interaction. We further demonstrated that object reconstruction from HandNeRF ensures more accurate execution of downstream tasks, such as grasping and motion planning for robotic hand-over and manipulation.
 
@@ -223,11 +223,11 @@ If you want to make the images to a video, refer to `${ROOT}/tool/images2video.p
 If you find this work useful, please consider citing:
 
 ```
-@article{choi2023handnerf,
+@InProceedings{choi2024handnerf,
   title={HandNeRF: Learning to Reconstruct Hand-Object Interaction Scene from a Single RGB Image},
   author={Choi, Hongsuk and Chavan-Dafle, Nikhil and Yuan, Jiacheng and Isler, Volkan and Park, Hyunsoo},
-  journal={arXiv preprint arXiv:2309.07891},
-  year={2023}
+  booktitle={International Conference on Robotics and Automation},
+  year={2024}
 }
 ```
 ##  License
